@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Noto+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+header>a>span{
+    font-family: 'Dongle', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 11px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#soluwin_color{
+    color: rgb(216, 18, 24);
+    font-family: 'Anton', sans-serif;
+}
+/* #index_content{
+    font-size: 1px;
+} */
+#soluwin_font{
+    font-family: 'Anton', sans-serif;
+}
+#btn_font{
+    font-family: 'Dongle', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+}
+#nav{
+display: flex;
+background-color: grey;
+flex-direction: row;
+text-decoration: none;
+font-size: 12px;
+color: white;
+}
+
+footer{
+    font-family: 'Dongle', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 13px;
+    color: aliceblue;
+    height: 200px;
+}
+
+@media screen and (max-width: 420px) {
+    header>a>span{
+        font-size: 11px;
+    }
+    footer{
+        font-size: 11px;
+    }
+}
+
