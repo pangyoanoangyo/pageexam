@@ -31,6 +31,13 @@
     
   </head>
   <body>
+    <style>
+      hr{
+        margin-top: 20px;
+      }
+
+    </style>
+
     <div class="container py-4" id='headers'></div>
     <main>
         <div class="container">
@@ -43,14 +50,14 @@
                     <hr class="my-4">
                 </div>
                 <div class="row">
-                    <div id="ceo_talk" class="col-md-12">
-                        <h1 class="display-8">인사말</h1>
+                    <div id="ceo_talk" class="col-sm">
+                        <h1 id="content_lead" class="display-8">인사말</h1>
                         <p class="lead">안녕하세요. 솔루윈 대표 박부삼 입니다.
                             급변하는 Total Security Solution의 선두를 추구합니다 첨단기술을 바탕으로 인프라설계, 가치창조,기업의 핵심 솔루션을 통합 공급하는 정보기술 전문회사로 고객의 경쟁력을 강화하고, 미래를 선도하는 기업으로 성장하겠습니다.
                         </p>
                     </div>
-                    <div class="col-md-12">
-                        <img src="images/ceo.png" class="img-fluid" alt="CEO">
+                    <div class="col-sm">
+                        <img src="images/ceo.png" class="img-fluid" style="height:110%;" alt="CEO">
                     </div>
                 </div>
             </div>
@@ -58,7 +65,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="jumbotron">
-                        <h1 class="display-8">회사 정보</h1>
+                        <h1 id="content_lead" class="display-8">회사 정보</h1>
                         <p class="lead">Soluwins는 2011년에 설립된 SI 회사입니다.</p>
                     </div>
                 </div>
@@ -98,23 +105,6 @@
                         </tbody>
                     </table>
             </div>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
         </div>
     </main>
     <div id='footers'> </div>    
@@ -126,3 +116,18 @@
 </html>
 
 <!-- &copy;  -->
+
+<!-- <script>
+  window.onload = function() {
+      var headers = document.getElementById('headers');
+      var header = document.createElement('h1');
+      header.innerHTML = 'Soluwin';
+      header.style.color = 'white';
+      header.style.fontSize = '50px';
+      header.style.fontWeight = 'bold';
+      header.style.textAlign = 'center';
+      header.style.marginTop = '20px';
+      header.style.marginBottom = '20px';
+      headers.appendChild(header);
+  }
+</script> -->

@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.88.1">
-    <title>Jumbotron example · Bootstrap v5.1</title>
+    <title>Soluwin</title>
 
     <script type="text/javascript" nonce="f5919781bf014cd6b119089ac0b" src="//local.adguard.org?ts=1674525713395&amp;type=content-script&amp;dmn=getbootstrap.com&amp;pth=%2Fdocs%2F5.1%2Fexamples%2Fjumbotron%2F&amp;app=whale.exe&amp;css=3&amp;js=1&amp;rel=1&amp;rji=1&amp;sbe=1&amp;stealth=1&amp;uag="></script>
 <script type="text/javascript" nonce="f5919781bf014cd6b119089ac0b" src="//local.adguard.org?ts=1674525713395&amp;name=AdGuard%20Assistant&amp;name=AdGuard%20Extra&amp;name=AdGuard%20Popup%20Blocker&amp;type=user-script"></script><link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/jumbotron/">
@@ -32,26 +32,89 @@
   </head>
   <body>    
     <main>
-        <div class="container py-4">
+      <div class="container py-4">
         <div id='headers'> </div>    
-        <h1>about페이지 입니다</h1>
-
-
-
-        
-        <!-- * 카카오맵 - 지도퍼가기 1. 지도 노드 -->
-        <div id="daumRoughmapContainer1674545546610" class="root_daum_roughmap root_daum_roughmap_landing"></div>
-        <!--지도  설치 스크립트 -->
-        <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
-        <!-- 3. 실행 스크립트 -->
-        <script charset="UTF-8">
-        	        new daum.roughmap.Lander({
-        		"timestamp" : "1674545546610",
-        		"key" : "2dhyg",
-        		"mapWidth" : "460",
-        		"mapHeight" : "360"
-        	}).render();
-        </script>
+        <div class="container">
+            <div class="row" >
+                <div class="col-md-12">
+                    <div class="jumbotron">
+                        <h1 class="display-3">On way <span id="soluwin_color">Solu</span><span id="soluwin_font">win</span></h1>
+                        <p class="lead">언제나 당신을 환영합니다.</p>
+                    </div>
+                    <hr class="my-4">
+                </div>
+                <div class="row">
+                    <div id="ceo_talk" class="col-sm">
+                        <h1 id="content_lead" class="display-8">찾아오시는 길</h1>
+                        <p class="lead">
+                          <strong>SOLUWIN HEAD OFFICE</strong><br>
+                          주소 : 경기도 용인시 수지구 신수로 767 분당수지유타워 A동 622호<br>
+                          TEL : 031) 272-0737<br>
+                          FAX : 031) 276-0737<br>  
+                        </p>
+                    </div>
+                    <div class="col-sm">
+                          <!-- * 카카오맵 - 지도퍼가기 1. 지도 노드 -->
+                          <div id="daumRoughmapContainer1674545546610" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+                          <!--지도  설치 스크립트 -->
+                          <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+                          <!-- 3. 실행 스크립트 -->
+                          <script charset="UTF-8">
+                          	        new daum.roughmap.Lander({
+                          		"timestamp" : "1674545546610",
+                          		"key" : "2dhyg",
+                          		"mapWidth" : "380",
+                          		"mapHeight" : "360"
+                          	}).render();
+                          </script>
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <!-- <div class="row">
+                <div class="col-md-12">
+                    <div class="jumbotron">
+                        <h1 id="content_lead" class="display-8">회사 정보</h1>
+                        <p class="lead">Soluwins는 2011년에 설립된 SI 회사입니다.</p>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <table class="table" id="table_font">
+                        <thead >
+                          <tr>
+                            <th class="col-3">구    분</th>
+                            <th class="col-9">내    용</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th class="col-3">회   사   명</th>
+                            <td>주식회사 솔루윈<strong>(Soluwin Co.,Ltd)</strong></td>
+                          </tr>
+                          <tr>
+                            <th class="col-3">사업자번호</th>
+                            <td>129-86-65195</td>
+                          </tr>
+                          <tr>
+                            <th class="col-3">대 표  이 사</th>
+                            <td> 박 부 삼</strong></td>
+                          </tr>
+                          <tr>
+                            <th class="col-3">설   립   일</th>
+                            <td>2011년 09월 08일</td>
+                          </tr>
+                          <tr>
+                            <th class="col-3">소   재   지</th>
+                            <td>경기도 용인시 수지구 신수로 767</td>
+                          </tr>
+                          <tr>
+                            <th class="col-3">사 업 내 용</th>
+                            <td> 보안감시시스템, 원격감시,출입통제, 외곽감시</td>
+                          </tr>
+                        </tbody>
+                    </table>
+            </div> -->
         </div>
     </main>
     <div id='footers'> </div>    
